@@ -200,7 +200,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 return await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
             else:
                 await client.send_cached_media(chat_id=query.from_user.id, file_id=file_id, caption=f_caption, protect_content=True if ident == "filep" else False)
-                await query.answer('Check PM, I have sent the Movie/Series in your DM 🤞', show_alert=True)
+                await query.answer('Check PM, I have sent the Movie in your DM 🤞', show_alert=True)
         except UserIsBlocked:
             await query.answer('Unblock me to get your Files Dude!!', show_alert=True)
         except PeerIdInvalid:
@@ -467,7 +467,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('Owner', url='https://t.me/xenov7x')
+            InlineKeyboardButton('Owner', url='https://t.me/notmoviebuff')
             ],[
             InlineKeyboardButton('‹ Back to hell', 'about')
         ]]
