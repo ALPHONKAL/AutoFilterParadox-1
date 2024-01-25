@@ -467,9 +467,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('Owner', url='https://t.me/notmoviebuff')
+            InlineKeyboardButton('Owner', url='https://t.me/graham_be')
             ],[
-            InlineKeyboardButton('‹ Back to hell', 'about')
+            InlineKeyboardButton('‹ Back', 'about')
         ]]
         await query.edit_message_media(InputMediaPhoto(random.choice(PICS), script.SOURCE_TXT, enums.ParseMode.HTML), reply_markup=InlineKeyboardMarkup(buttons))
       
