@@ -7,15 +7,15 @@ Myself {bot} is here to help you Find The Movie or Series you Desire to Watch.
     
     HELP_TXT = "Hey {}\nThere you go with the help commands 👾"
 
-    ABOUT_TXT = """<b>✯ Owner: @Notmoviebuff
+    ABOUT_TXT = """<b>✯ Owner: @graham_be
 ✯ Database: Mongo-DB
 ✯ Hosted on: Heroku
-✯ Version: MovieBuff Autofilter Ver 2.0</b>"""
+✯ Version: Alx Autofilter Ver 2.0</b>"""
    
     SOURCE_TXT = """NOTE:
 <blockquote>- Source Code › : This Project is not an open-source, and I don't have ownership over all its components.</blockquote>
 
-Creator: @Notmoviebuff"""
+Creator: @graham_be"""
 
     FILE_TXT = """<b>➤ Hᴇʟᴘ Fᴏʀ Fɪʟᴇ Sᴛᴏʀᴇ</b>
 
