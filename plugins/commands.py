@@ -190,7 +190,7 @@ async def start(client, message):
         return await message.reply('NO SUCH FILE EXIST...')
         
     files = files_[0]
-    title = files.file_name
+    title = f"<code>{files.file_name}</code>"
     size=get_size(files.file_size)
     f_caption=files.caption
     if CUSTOM_FILE_CAPTION:
